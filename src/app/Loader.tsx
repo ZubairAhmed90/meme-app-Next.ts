@@ -1,3 +1,4 @@
+'use client';
 import React from "react";
 
 const Loading = () => {
@@ -11,7 +12,7 @@ const Loading = () => {
           Loading your memes...
         </p>
         <p className="text-md text-gray-300">
-          Don't worry, they'll be worth the wait! 😄
+          Don&apos;t worry, they&apos;ll be worth the wait! 😄 {/* Escaped single quotes */}
         </p>
       </div>
     </div>
